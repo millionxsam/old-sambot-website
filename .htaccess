@@ -1,0 +1,14 @@
+#Hide file extensions in URL, and make the URL not case-sensitive
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+#Set the 404 error page
+ErrorDocument 404 /404.html
+
+#Change the home page
+DirectoryIndex home.html

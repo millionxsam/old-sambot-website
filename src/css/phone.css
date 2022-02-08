@@ -1,0 +1,132 @@
+.logo{
+    display: none;
+}
+
+nav{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    width: 99rem;
+    justify-content: space-around;
+}
+
+div.btn-container{
+    position: unset;
+    width: 28rem;
+}
+
+div.btn-container-two{
+    display: none;
+}
+
+.scroll-arrow{
+    display: flex;
+    justify-content: center;
+    margin-top: 14rem;
+}
+
+.btn-container button{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 200px;
+    padding: 30px;
+    border-radius: 50px 5px;
+    font-size: 40px;
+    justify-content: space-around;
+    transition: all 0.3s ease;
+}
+
+div.showcase-container{
+    display: flex;
+    flex-direction: column;
+}
+
+div.showcase-container div{
+    margin-top: 5rem;
+    margin-left: 0;
+}
+
+div.showcase-container{
+    margin-top: 20rem;
+}
+
+div#mobile-menu{
+    background-color: rgba(0, 0, 0, 0.918);
+    text-align: center;
+    padding-top: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-bottom: 2rem;
+}
+
+div#mobile-menu a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+div#mobile-menu h1{
+    color: orangered;
+}
+
+div#mobile-menu li{
+    margin-top: 2rem;
+    list-style: none;
+}
+
+div#mobile-menu{
+    display: none;
+}
+
+#menu-toggle{
+    display: flex;
+    justify-content: right;
+    font-size: 40px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    position: sticky;
+    top: 1rem;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.active#mobile-menu{
+    transition: all 0.5s ease;
+    display: block;
+}
+
+.active#menu-toggle{
+    display: none;
+}
+
+#menu-close{
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem;
+    font-size: 30px;
+}
+
+.cmds{
+    margin-left: 6rem;
+}
+
+.faq-container .ans{
+    margin-left: 10rem;
+}
+
+.updates-container div p{
+    margin-left: 10rem;
+}
+
+.update-join{
+    left: 2rem;
+    top: 53rem;
+    font-size: 13px;
+}
